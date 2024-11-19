@@ -67,3 +67,8 @@ And **the `baseDir` to use is:**
 **Changing files**: You can upload new versions of your files in the same directory where the old ones are to replace them.
 
 Each time you delete a file or upload a new file, you will need to commit the change and can write a short message about what you changed and why. Your commit history then shows a complete record of the changes you've made over time, which is very helpful for your future self.
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
