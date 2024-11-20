@@ -1,0 +1,274 @@
+"test-questions2": {
+            "kind": "group",
+            "frameList": [
+                {
+                    "audio": "question7audio",
+                    "images": [
+                        {
+                            "id": "option1",
+                            "src": "question(7o1).png",
+                            "top": "1"
+                        },
+                        {
+                            "id": "option2",
+                            "src": "question(7o2).png",
+                            "top": "62"
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                16,
+                                19
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                19,
+                                22
+                            ],
+                            "imageId": "option2"
+                        },
+                        {
+                            "range": [
+                                4,
+                                8
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                8,
+                                12
+                            ],
+                            "imageId": "option2"
+                        }
+                    ]
+                },
+                {
+                    "audio": "question8audio",
+                    "images": [
+                        {
+                            "id": "option1",
+                            "src": "question(8o1).png",
+                            "top": "1"
+                        },
+                        {
+                            "id": "option2",
+                            "src": "question(8o2).png",
+                            "top": "62"
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                15,
+                                16
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                16,
+                                20
+                            ],
+                            "imageId": "option2"
+                        },
+                        {
+                            "range": [
+                                5,
+                                11
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                11,
+                                16
+                            ],
+                            "imageId": "option2"
+                        }
+                    ]
+                },
+                {
+                    "audio": "question9audio",
+                    "images": [
+                        {
+                            "id": "option1",
+                            "src": "question(9o1).png",
+                            "top": "1"
+                        },
+                        {
+                            "id": "option2",
+                            "src": "question(9o2).png",
+                            "top": "62"
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                14,
+                                16
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                16,
+                                20
+                            ],
+                            "imageId": "option2"
+                        },
+                        {
+                            "range": [
+                                4,
+                                8
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                8,
+                                12
+                            ],
+                            "imageId": "option2"
+                        }
+                    ]
+                },
+                {
+                    "audio": "question10audio",
+                    "images": [
+                        {
+                            "id": "option1",
+                            "src": "question(10o1).png",
+                            "top": "1"
+                        },
+                        {
+                            "id": "option2",
+                            "src": "question(10o2).png",
+                            "top": "62"
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                14,
+                                17
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                17,
+                                20
+                            ],
+                            "imageId": "option2"
+                        },
+                        {
+                            "range": [
+                                4,
+                                8
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                8,
+                                12
+                            ],
+                            "imageId": "option2"
+                        }
+                    ]
+                },
+                {
+                    "audio": "question11audio",
+                    "images": [
+                        {
+                            "id": "option1",
+                            "src": "question(11o1).png",
+                            "top": "1"
+                        },
+                        {
+                            "id": "option2",
+                            "src": "question(11o2).png",
+                            "top": "62"
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                15,
+                                17
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                17,
+                                21
+                            ],
+                            "imageId": "option2"
+                        },
+                        {
+                            "range": [
+                                7,
+                                12
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                12,
+                                15
+                            ],
+                            "imageId": "option2"
+                        }
+                    ]
+                },
+                {
+                    "audio": "question12audio",
+                    "images": [
+                        {
+                            "id": "option1",
+                            "src": "question(12o1).png",
+                            "top": "1"
+                        },
+                        {
+                            "id": "option2",
+                            "src": "question(12o2).png",
+                            "top": "62"
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                13,
+                                18
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                18,
+                                20
+                            ],
+                            "imageId": "option2"
+                        },
+                        {
+                            "range": [
+                                6,
+                                10
+                            ],
+                            "imageId": "option1"
+                        },
+                        {
+                            "range": [
+                                10,
+                                14
+                            ],
+                            "imageId": "option2"
+                        }
+                    ]
+                }
+            ],
