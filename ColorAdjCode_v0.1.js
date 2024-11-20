@@ -182,13 +182,38 @@
             "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
             "autoProceed": true,
             "doRecording": false,
-            "choiceRequired": false
+            "choiceRequired": true
+            "canMakeChoiceBeforeAudioFinished": true,
+            "allowUserPause": false
+        },
+    "question2": {
+            "kind": "exp-lookit-images-audio",
+            "audio": "question2audio",
+            "audioTypes": [
+                "mp3"
+            ],
+            "images": [
+                {
+                    "id": "question2",
+                    "src": "question2.png",
+                    "position": "fill"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
+            "autoProceed": true,
+            "doRecording": false,
+            "choiceRequired": true,
+            "canMakeChoiceBeforeAudioFinished": true,
+            "allowUserPause": false
         },
     "sequence": [
         "video-config",
         "video-consent",
         "parent-preview",
         "intro",
-        "warmup-questions"
+        "warmup-questions",
+        "question1",
+        "question2"
+        
     ]
 }
