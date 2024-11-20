@@ -57,7 +57,7 @@
                 }
             ],
             "showPreviousButton": true,
-            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/lookit-stimuli-template/main/",
+            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
             "videoTypes": [
                 "webm",
                 "mp4"
@@ -73,14 +73,104 @@
                 },
                 {
                     "caption": "Your child will be look a image with two people and a group of objects. We'll ask him or her choose which person has the object being asked for by the question.",
-                    "image": "question1"
+                    "image": "sample.png"
                 }
             ]
+        },
+        "warmup-questions": {
+            "kind": "exp-lookit-images-audio",
+            "audio": "warmup1audio",
+            "images": [
+                {
+                    "id": "option1",
+                    "src": "warmup(1o1).png",
+                    "top": "0",
+                    "displayDelayMS": 2000
+                },
+                {
+                    "id": "option2",
+                    "src": "warmup(1o2).png",
+                    "top": "63",
+                    "displayDelayMs": 6000
+                }
+            ],
+            "highlights": [
+                {
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "option1"
+                },
+                {
+                    "range": [
+                        6,
+                        10
+                    ],
+                    "imageId": "option2"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
+            "autoProceed": false,
+            "doRecording": true,
+            "choiceRequired": true,
+            "parentTextBlock": {
+                "text": "If your child doesn't understand or wants to hear the audio again, press replay audio.",
+                "title": "For parents"
+            },
+            "canMakeChoiceBeforeAudioFinished": true,
+            "allowUserPause": false
+        },
+        "test-questions": {
+            "kind": "exp-lookit-images-audio",
+            "audio": "question1audio",
+            "images": [
+                {
+                    "id": "option1",
+                    "src": "question(1o1).png",
+                    "top": "0",
+                    "displayDelayMS": 2000
+                },
+                {
+                    "id": "option2",
+                    "src": "question(1o2).png",
+                    "top": "63",
+                    "displayDelayMs": 6000
+                }
+            ],
+            "highlights": [
+                {
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "option1"
+                },
+                {
+                    "range": [
+                        6,
+                        10
+                    ],
+                    "imageId": "option2"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
+            "autoProceed": false,
+            "doRecording": true,
+            "choiceRequired": true,
+            "parentTextBlock": {
+                "text": "If your child doesn't understand or wants to hear the audio again, press replay audio.",
+                "title": "For parents"
+            },
+            "canMakeChoiceBeforeAudioFinished": true,
+            "allowUserPause": false
         }
     },
     "sequence": [
         "video-config",
         "video-consent",
-        "parent-preview"
+        "parent-preview",
+        "intro",
+        "warmup-questions"
     ]
 }
