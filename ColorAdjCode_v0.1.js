@@ -26,8 +26,8 @@
             "gdpr": false,
             "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the University of Massachusetts International Research Board",
             "styles": {
-                    "container": {
-                        "marginTop": "50px"
+                "container": {
+                    "marginTop": "50px"
                 }
             }
         },
@@ -179,45 +179,45 @@
         }
     },
     "question1": {
-            "kind": "exp-lookit-images-audio",
-            "audio": "question1audio",
-            "audioTypes": [
-                "mp3"
-            ],
-            "images": [
-                {
-                    "id": "question1",
-                    "src": "question1.png",
-                    "position": "fill"
-                }
-            ],
-            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
-            "autoProceed": false,
-            "doRecording": true,
-            "choiceRequired": true,
-            "canMakeChoiceBeforeAudioFinished": true,
-            "allowUserPause": false
-        },
+        "kind": "exp-lookit-images-audio",
+        "audio": "question1audio",
+        "audioTypes": [
+            "mp3"
+        ],
+        "images": [
+            {
+                "id": "question1",
+                "src": "question1.png",
+                "position": "fill"
+            }
+        ],
+        "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
+        "autoProceed": false,
+        "doRecording": true,
+        "choiceRequired": true,
+        "canMakeChoiceBeforeAudioFinished": true,
+        "allowUserPause": false
+    },
     "question2": {
-            "kind": "exp-lookit-images-audio",
-            "audio": "question2audio",
-            "audioTypes": [
-                "mp3"
-            ],
-            "images": [
-                {
-                    "id": "question2",
-                    "src": "question2.png",
-                    "position": "fill"
-                }
-            ],
-            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
-            "autoProceed": false,
-            "doRecording": true,
-            "choiceRequired": true,
-            "canMakeChoiceBeforeAudioFinished": true,
-            "allowUserPause": false
-        },
+        "kind": "exp-lookit-images-audio",
+        "audio": "question2audio",
+        "audioTypes": [
+            "mp3"
+        ],
+        "images": [
+            {
+                "id": "question2",
+                "src": "question2.png",
+                "position": "fill"
+            }
+        ],
+        "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
+        "autoProceed": false,
+        "doRecording": true,
+        "choiceRequired": true,
+        "canMakeChoiceBeforeAudioFinished": true,
+        "allowUserPause": false
+    },
     "sequence": [
         "video-config",
         "video-consent",
