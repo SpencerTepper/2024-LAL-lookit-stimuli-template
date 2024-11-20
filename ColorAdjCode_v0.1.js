@@ -10,11 +10,6 @@
     "video-config": {
         "kind": "exp-video-config",
         "troubleshootingIntro": ""
-        "styles": {
-        "container": {
-            "marginTop": "50px"
-                }
-        }
     }
         
 },
@@ -32,6 +27,11 @@
             "include_databrary": true,
             "gdpr": false,
             "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the University of Massachusetts International Research Board"
+            "styles": {
+            "container": {
+            "marginTop": "50px"
+                }
+            }
         },
         "intro": {
             "blocks": [
@@ -194,8 +194,8 @@
                 }
             ],
             "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
-            "autoProceed": true,
-            "doRecording": false,
+            "autoProceed": false,
+            "doRecording": true,
             "choiceRequired": true
             "canMakeChoiceBeforeAudioFinished": true,
             "allowUserPause": false
@@ -214,8 +214,8 @@
                 }
             ],
             "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
-            "autoProceed": true,
-            "doRecording": false,
+            "autoProceed": false,
+            "doRecording": true,
             "choiceRequired": true,
             "canMakeChoiceBeforeAudioFinished": true,
             "allowUserPause": false
