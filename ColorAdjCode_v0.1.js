@@ -10,7 +10,14 @@
     "video-config": {
         "kind": "exp-video-config",
         "troubleshootingIntro": ""
-        },
+        "styles": {
+        "container": {
+            "marginTop": "50px"
+                }
+        }
+    }
+        
+},
         "video-consent": {
             "kind": "exp-lookit-video-consent",
             "template": "consent_002",
