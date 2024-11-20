@@ -1,18 +1,16 @@
 {
-"frames": {
+    "frames": {
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
                 "text": "Here is where you would enter debriefing information for the family. This is a chance to explain the purpose of your study and how the family helped; at this point it's more obvious to the participant that skimming the info is fine if they're not super-interested, so you can elaborate in ways you might have avoided ahead of time in the interest of keeping instructions short. You may want to mention the various conditions kids were assigned to if you didn't before, and try to head off any concerns parents might have about how their child 'did' on the study, especially if there are 'correct' answers that will have been obvious to a parent. <br><br> It is great if you can link people to a layperson-accessible article on a related topic - e.g., media coverage of one of your previous studies in this research program, a talk on Youtube, a parenting resource. <br><br> If you are compensating participants, restate what the compensation is (and any conditions, and let them know when to expect their payment! E.g.: To thank you for your participation, we'll be emailing you a $4 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. (If you don't hear from us by then, feel free to reach out!) If you participate again with another child in the age range, you'll receive one gift card per child.",
                 "title": "Thank you!"
-            },
-"frames": {
-    "video-config": {
-        "kind": "exp-video-config",
-        "troubleshootingIntro": ""
-    }
-        
-},
+            }
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": ""
+        },
         "video-consent": {
             "kind": "exp-lookit-video-consent",
             "template": "consent_002",
@@ -196,7 +194,7 @@
             "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
             "autoProceed": false,
             "doRecording": true,
-            "choiceRequired": true
+            "choiceRequired": true,
             "canMakeChoiceBeforeAudioFinished": true,
             "allowUserPause": false
         },
