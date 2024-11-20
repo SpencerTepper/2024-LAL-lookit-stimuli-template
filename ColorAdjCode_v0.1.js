@@ -166,6 +166,24 @@
             "allowUserPause": false
         }
     },
+    "question1": {
+            "kind": "exp-lookit-images-audio",
+            "audio": "question1audio",
+            "audioTypes": [
+                "mp3"
+            ],
+            "images": [
+                {
+                    "id": "question1",
+                    "src": "question1.png",
+                    "position": "fill"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/SpencerTepper/ColorAdjLookit/refs/heads/master",
+            "autoProceed": true,
+            "doRecording": false,
+            "choiceRequired": false
+        },
     "sequence": [
         "video-config",
         "video-consent",
